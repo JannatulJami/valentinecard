@@ -55,7 +55,7 @@ h1{
 
 .typewriter-animation{
   animation:
-    typewriter 2s steps(13)is 1 normal both,
+    typewriter 2s steps(13) is 1 normal both,
     blinkingCursor 500ms steps(13) infinite normal;
 }
 @keyframes typewriter {
