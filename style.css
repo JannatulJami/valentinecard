@@ -39,11 +39,10 @@ h1{
   height: 100%;
 }  
 
-.cursor{
+.cursor {
   position: absolute;
-  width: 300px;
-  margin: 0 auto;
-  color: RGB(29, 76, 44)
+  width: 0; /* Start width at 0 for animation */
+  color: RGB(29, 76, 44);
   font-size: 30px;
   text-align: center;
   white-space: nowrap;
@@ -51,22 +50,16 @@ h1{
   transform: translateY(-50%);
   margin-top: 200px;
   margin-left: 295px;
+  border-right: 2px solid RGB(29, 76, 44); /* Cursor effect */
+  animation: typewriter 2s steps(13) 1 normal both, 
+             blinkingCursor 500ms steps(13) infinite normal;
 }
 
-.typewriter-animation{
-  animation:
-    typewriter 2s steps(13) is 1 normal both,
-    blinkingCursor 500ms steps(13) infinite normal;
-}
 @keyframes typewriter {
-  from {width: 0;}
-  to {width: 160px;}
+  from { width: 0; }
+  to { width: 160px; }
 }
 
-@keyframes blinkingCursor{
-  from {border-right-color: RGB(39, 76, 44);}
-  to {border-right-color: transparent;}
+@keyframes blinkingCursor {
+  50% { border-right-color: transparent; }
 }
-
-
-  
