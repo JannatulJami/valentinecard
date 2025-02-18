@@ -63,8 +63,10 @@ h1{
   to {width: 160px;}
 }
 
-
-
+@keyframes blinkingCursor{
+  from {border-right-color: RGB(39, 76, 44);}
+  to {border-right-color: transparent;}
+}
 
 
   
