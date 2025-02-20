@@ -66,17 +66,9 @@ h1 {
 }
 
 .pink{
-  width: 600px;
-  height: 800px;
+  width: 100%;
+  height: 100%;
   justify-content: center;
-}
-
-.ribbon{
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  margin-left: 150px;
-  margin-top: 20px;
 }
 
 .p{
