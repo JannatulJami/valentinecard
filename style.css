@@ -50,7 +50,7 @@ h1 {
   overflow: hidden;
   transform: translateY(-50%);
   margin-top: 200px;
-  margin-left: 295px;
+  margin-left: 235px;
   border-right: 2px solid RGB(29, 76, 44); /* Cursor effect */
   animation: typewriter 2s steps(22) 1 normal both, /* Adjusted steps */
              blinkingCursor 500ms steps(13) infinite normal;
