@@ -68,14 +68,15 @@ h1 {
 .pink{
   width: 600px;
   height: 800px;
+  justify-content: center;
 }
 
 .ribbon{
   width: 200px;
   height: 200px;
   position: absolute;
-  margin-left: 130px;
-  margin-top: 10px;
+  margin-left: 150px;
+  margin-top: 20px;
 }
 
 .p{
