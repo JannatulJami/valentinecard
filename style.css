@@ -27,12 +27,12 @@ h1 {
   font-weight: 400;
   font-style: normal;
   color: #ffffff; /* Fixed text color */
-  font-size: 30px;
+  font-size: 40px;
   margin: 0;
   padding: 0;
   position: absolute;
   margin-top: 200px;
-  margin-left: 270px;
+  margin-left: 220px;
 }
 
 .door {
@@ -43,7 +43,7 @@ h1 {
 .cursor {
   position: absolute;
   width: 0; /* Start with no width */
-  color: RGB(29, 76, 44);
+  color: #fcb0cc;
   font-size: 30px;
   text-align: center;
   white-space: nowrap;
